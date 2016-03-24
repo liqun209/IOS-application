@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D683D7611BDE575000F57EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D7601BDE575000F57EE2 /* AppDelegate.swift */; };
+		D683D7641BDE575000F57EE2 /* MauvaisePluie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D683D7621BDE575000F57EE2 /* MauvaisePluie.xcdatamodeld */; };
+		D683D7661BDE575000F57EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D7651BDE575000F57EE2 /* ViewController.swift */; };
+		D683D7691BDE575000F57EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D683D7671BDE575000F57EE2 /* Main.storyboard */; };
+		D683D76B1BDE575000F57EE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D683D76A1BDE575000F57EE2 /* Images.xcassets */; };
+		D683D76E1BDE575000F57EE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D683D76C1BDE575000F57EE2 /* LaunchScreen.xib */; };
+		D683D77A1BDE575000F57EE2 /* MauvaisePluieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D7791BDE575000F57EE2 /* MauvaisePluieTests.swift */; };
+		D683D7861BDE57F100F57EE2 /* PrefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D7851BDE57F100F57EE2 /* PrefView.swift */; };
+		D683D7881BDE809400F57EE2 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D7871BDE809400F57EE2 /* ScoreView.swift */; };
+		D683D78A1BDEA0D100F57EE2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D7891BDEA0D100F57EE2 /* GameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D683D7741BDE575000F57EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D683D7531BDE574F00F57EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D683D75A1BDE574F00F57EE2;
+			remoteInfo = MauvaisePluie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D683D75B1BDE575000F57EE2 /* MauvaisePluie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MauvaisePluie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683D75F1BDE575000F57EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D683D7601BDE575000F57EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D683D7631BDE575000F57EE2 /* MauvaisePluie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MauvaisePluie.xcdatamodel; sourceTree = "<group>"; };
+		D683D7651BDE575000F57EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D683D7681BDE575000F57EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D683D76A1BDE575000F57EE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D683D76D1BDE575000F57EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D683D7731BDE575000F57EE2 /* MauvaisePluieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MauvaisePluieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683D7781BDE575000F57EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D683D7791BDE575000F57EE2 /* MauvaisePluieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauvaisePluieTests.swift; sourceTree = "<group>"; };
+		D683D7851BDE57F100F57EE2 /* PrefView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefView.swift; sourceTree = "<group>"; };
+		D683D7871BDE809400F57EE2 /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		D683D7891BDEA0D100F57EE2 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D683D7581BDE574F00F57EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D7701BDE575000F57EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D683D7521BDE574F00F57EE2 = {
+			isa = PBXGroup;
+			children = (
+				D683D75D1BDE575000F57EE2 /* MauvaisePluie */,
+				D683D7761BDE575000F57EE2 /* MauvaisePluieTests */,
+				D683D75C1BDE575000F57EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D683D75C1BDE575000F57EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D683D75B1BDE575000F57EE2 /* MauvaisePluie.app */,
+				D683D7731BDE575000F57EE2 /* MauvaisePluieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D683D75D1BDE575000F57EE2 /* MauvaisePluie */ = {
+			isa = PBXGroup;
+			children = (
+				D683D7601BDE575000F57EE2 /* AppDelegate.swift */,
+				D683D7651BDE575000F57EE2 /* ViewController.swift */,
+				D683D7671BDE575000F57EE2 /* Main.storyboard */,
+				D683D76A1BDE575000F57EE2 /* Images.xcassets */,
+				D683D76C1BDE575000F57EE2 /* LaunchScreen.xib */,
+				D683D7621BDE575000F57EE2 /* MauvaisePluie.xcdatamodeld */,
+				D683D75E1BDE575000F57EE2 /* Supporting Files */,
+				D683D7851BDE57F100F57EE2 /* PrefView.swift */,
+				D683D7871BDE809400F57EE2 /* ScoreView.swift */,
+				D683D7891BDEA0D100F57EE2 /* GameView.swift */,
+			);
+			path = MauvaisePluie;
+			sourceTree = "<group>";
+		};
+		D683D75E1BDE575000F57EE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D683D75F1BDE575000F57EE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D683D7761BDE575000F57EE2 /* MauvaisePluieTests */ = {
+			isa = PBXGroup;
+			children = (
+				D683D7791BDE575000F57EE2 /* MauvaisePluieTests.swift */,
+				D683D7771BDE575000F57EE2 /* Supporting Files */,
+			);
+			path = MauvaisePluieTests;
+			sourceTree = "<group>";
+		};
+		D683D7771BDE575000F57EE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D683D7781BDE575000F57EE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D683D75A1BDE574F00F57EE2 /* MauvaisePluie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D683D77D1BDE575000F57EE2 /* Build configuration list for PBXNativeTarget "MauvaisePluie" */;
+			buildPhases = (
+				D683D7571BDE574F00F57EE2 /* Sources */,
+				D683D7581BDE574F00F57EE2 /* Frameworks */,
+				D683D7591BDE574F00F57EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MauvaisePluie;
+			productName = MauvaisePluie;
+			productReference = D683D75B1BDE575000F57EE2 /* MauvaisePluie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D683D7721BDE575000F57EE2 /* MauvaisePluieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D683D7801BDE575000F57EE2 /* Build configuration list for PBXNativeTarget "MauvaisePluieTests" */;
+			buildPhases = (
+				D683D76F1BDE575000F57EE2 /* Sources */,
+				D683D7701BDE575000F57EE2 /* Frameworks */,
+				D683D7711BDE575000F57EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D683D7751BDE575000F57EE2 /* PBXTargetDependency */,
+			);
+			name = MauvaisePluieTests;
+			productName = MauvaisePluieTests;
+			productReference = D683D7731BDE575000F57EE2 /* MauvaisePluieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D683D7531BDE574F00F57EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = m2sar;
+				TargetAttributes = {
+					D683D75A1BDE574F00F57EE2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D683D7721BDE575000F57EE2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D683D75A1BDE574F00F57EE2;
+					};
+				};
+			};
+			buildConfigurationList = D683D7561BDE574F00F57EE2 /* Build configuration list for PBXProject "MauvaisePluie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D683D7521BDE574F00F57EE2;
+			productRefGroup = D683D75C1BDE575000F57EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D683D75A1BDE574F00F57EE2 /* MauvaisePluie */,
+				D683D7721BDE575000F57EE2 /* MauvaisePluieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D683D7591BDE574F00F57EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D7691BDE575000F57EE2 /* Main.storyboard in Resources */,
+				D683D76E1BDE575000F57EE2 /* LaunchScreen.xib in Resources */,
+				D683D76B1BDE575000F57EE2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D7711BDE575000F57EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D683D7571BDE574F00F57EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D7661BDE575000F57EE2 /* ViewController.swift in Sources */,
+				D683D7861BDE57F100F57EE2 /* PrefView.swift in Sources */,
+				D683D7641BDE575000F57EE2 /* MauvaisePluie.xcdatamodeld in Sources */,
+				D683D7611BDE575000F57EE2 /* AppDelegate.swift in Sources */,
+				D683D78A1BDEA0D100F57EE2 /* GameView.swift in Sources */,
+				D683D7881BDE809400F57EE2 /* ScoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D76F1BDE575000F57EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D77A1BDE575000F57EE2 /* MauvaisePluieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D683D7751BDE575000F57EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D683D75A1BDE574F00F57EE2 /* MauvaisePluie */;
+			targetProxy = D683D7741BDE575000F57EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D683D7671BDE575000F57EE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D683D7681BDE575000F57EE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D683D76C1BDE575000F57EE2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D683D76D1BDE575000F57EE2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D683D77B1BDE575000F57EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D683D77C1BDE575000F57EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D683D77E1BDE575000F57EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MauvaisePluie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D683D77F1BDE575000F57EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MauvaisePluie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D683D7811BDE575000F57EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MauvaisePluieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MauvaisePluie.app/MauvaisePluie";
+			};
+			name = Debug;
+		};
+		D683D7821BDE575000F57EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MauvaisePluieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MauvaisePluie.app/MauvaisePluie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D683D7561BDE574F00F57EE2 /* Build configuration list for PBXProject "MauvaisePluie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683D77B1BDE575000F57EE2 /* Debug */,
+				D683D77C1BDE575000F57EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D683D77D1BDE575000F57EE2 /* Build configuration list for PBXNativeTarget "MauvaisePluie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683D77E1BDE575000F57EE2 /* Debug */,
+				D683D77F1BDE575000F57EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D683D7801BDE575000F57EE2 /* Build configuration list for PBXNativeTarget "MauvaisePluieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683D7811BDE575000F57EE2 /* Debug */,
+				D683D7821BDE575000F57EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D683D7621BDE575000F57EE2 /* MauvaisePluie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D683D7631BDE575000F57EE2 /* MauvaisePluie.xcdatamodel */,
+			);
+			currentVersion = D683D7631BDE575000F57EE2 /* MauvaisePluie.xcdatamodel */;
+			path = MauvaisePluie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D683D7531BDE574F00F57EE2 /* Project object */;
+}
